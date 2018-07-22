@@ -5,11 +5,19 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "http-server -p 9000"
+    "start": "http-server -o -s"
   },
   "author": "Carlos",
   "license": "ISC",
   "devDependencies": {
     "http-server": "^0.11.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rada2491/Portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rada2491/Portfolio/issues"
+  },
+  "homepage": "https://github.com/rada2491/Portfolio#readme"
 }
