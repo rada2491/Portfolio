@@ -17,6 +17,13 @@ body {
     overflow-x: hidden;
 }
 
+/* Headings */
+
+h1 {
+    color: #fff;
+    text-align: start;
+}
+
 /*Elementos reusables*/
 
 .row {
@@ -59,6 +66,15 @@ header {
     background-position: center;
     height: 100vh;
     background-attachment: fixed;
+}
+
+.hero-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 .main-nav{
