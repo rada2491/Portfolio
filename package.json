@@ -4,7 +4,8 @@
   "description": "Portfolio",
   "main": "index.js",
   "scripts": {
-    "start": "gulp build"
+    "start": "gulp build",
+    "deploy": "gulp deploy"
   },
   "author": "Carlos",
   "license": "ISC",

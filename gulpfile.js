@@ -102,9 +102,10 @@ gulp.task('build', [
 gulp.task('deploy', [
   'html',
   'styles',
+  'vendor-styles',
   'scripts',
+  'vendor-scripts',
   'compress',
-  'styles-layout',
   'font-awesome',
   'assets'
 ], cb => cb)
