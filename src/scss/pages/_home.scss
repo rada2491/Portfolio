@@ -24,8 +24,20 @@ body {
     visibility: hidden;
 }
 
+.row {
+    margin: 0;
+}
+
 /*Elementos reusables*/
 
+h2 {
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    font-style: initial;
+}
 
 
 .col {
@@ -97,6 +109,7 @@ header {
     float: right;
     list-style: none;
     margin-top: 55px;
+    background-color: none;
 }
 
 .main-nav li {
@@ -137,13 +150,23 @@ header {
     transition: color 0.2s;
 }
 
-/* Skills section*/
+/* Education section */
 
-.section-skills {
+.section-education {
     background-color: $section-skills-color;
 }
 
-.card {
+.card .card-image img {
+    width: auto;
+}
+
+/* Skills section*/
+
+.section-skills {
+    background-color: #fff;
+}
+
+.skills-container {
     
     border-radius: 3px;
     margin-bottom: 60px;
@@ -154,13 +177,13 @@ header {
 .back-end-skills {
     list-style: none;
     width: 100%;
-    margin-left: 65px;
 }
 
 .back-end-skills li {
     display: block;
     float: left;
     width: 20%; 
+    text-align: center;
 }
 
 .skill-logo {
@@ -189,7 +212,14 @@ footer p {
     float: left;
 }
 
-.footer-nav li{
+.footer-nav-icons {
+    list-style: none;
+    float: right;
+}
+
+
+.footer-nav li,
+.footer-nav-icons li {
     display: inline-block;
     margin-right: 20px;
 }
@@ -199,7 +229,9 @@ footer p {
 }
 
 .footer-nav li a:link,
-.footer-nav li a:visited {
+.footer-nav li a:visited,
+.footer-nav-icons li a:link,
+.footer-nav-icons li a:visited{
     text-decoration: none;
     border: 0;
     color: $footer-links-color;

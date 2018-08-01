@@ -8,12 +8,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
     <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/materialize.min.css">
 </head>
+
 <body>
     <header>
         <div class="container-fluid">
-            <nav>
-                <div class="row">
+
+            <div class="row">
+                <nav>
                     <div class="col-lg-offset-6 col-lg-6">
                         <ul class="main-nav">
                             <li>
@@ -27,34 +30,103 @@
                             </li>
                         </ul>
                     </div>
-                </div>
-                <div class="row name-text-box">
-                    <div class="col-lg-6">
-                        <div class="row">
-                            <b class="developer">
-                                Carlos Bonilla Robles
-                            </b>
-                        </div>
-                        <div class="row">
-                            <b>Full-Stack Web Developer</b>
-                        </div>
-                        <div class="row">
-                            <b>National University of Costa Rica</b>
-                        </div>
-
+                </nav>
+            </div>
+            <div class="row name-text-box">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                    <div class="row">
+                        <b class="developer">
+                            Carlos Bonilla Robles
+                        </b>
                     </div>
-
+                    <div class="row">
+                        <b>Full-Stack Web Developer</b>
+                    </div>
+                    <div class="row">
+                        <b>Universidad Nacional de Costa Rica</b>
+                    </div>
                 </div>
-            </nav>
+            </div>
+
         </div>
     </header>
     <main>
+        <section class="section-education">
+            <div class="container-fluid">
+                <div class="row">
+                    <h2>Education</h2>
+                    <div class="col-lg-6">
+                        <div class="row">
+                            <div class="col s12 m7">
+                                <div class="card horizontal">
+                                    <div class="card-image">
+                                        <img src="img/una.png">
+                                    </div>
+                                    <div class="card-stacked">
+                                        <div class="card-content">
+                                            <p>Bachelor in Information Systems Engineering by the Universidad Nacional de Costa
+                                                Rica.
+                                            </p>
+
+                                        </div>
+                                        <div class="card-action">
+                                            <p>2013-2018</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="row">
+                            <div class="col s12 m7">
+                                <div class="card horizontal">
+                                    <div class="card-image">
+                                        <img src="img/una.png">
+                                    </div>
+                                    <div class="card-stacked">
+                                        <div class="card-content">
+                                            <p>Bachelor in History by the Universidad Nacional de Costa Rica.</p>
+
+                                        </div>
+                                        <div class="card-action">
+                                            <p>2010-2015</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="row">
+                            <div class="col-lg-offset-3 col-lg-6">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img class="brain-logo" src="img/brainstation.png">
+                                        <span class="card-title">Card Title</span>
+                                    </div>
+                                    <div class="card-content">
+                                        <p>Front-End training using technologies such as Bootstrap, SASS, Node.js, NPM, React.js, Redux, Webpack and Mongodb.</p>
+                                    </div>
+                                    <div class="card-action">
+                                        <p>2018 - currently</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
         <section class="section-skills">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-12 js--wp-3">
-                        <div class="card">
-                            <div class="card-content">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 js--wp-3">
+                        <div class="skills-container">
+                            <div>
                                 <h4>
                                     <br> HTML
                                 </h4>
@@ -78,8 +150,8 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="card">
-                            <div class="card-content">
+                        <div class="skills-container">
+                            <div>
                                 <h4>
                                     <br> CSS
                                 </h4>
@@ -107,8 +179,8 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="card">
-                            <div class="card-content">
+                        <div class="skills-container">
+                            <div>
                                 <h4>
                                     <br> Javascript
                                 </h4>
@@ -141,8 +213,8 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="card">
-                            <div class="card-content">
+                        <div class="skills-container">
+                            <div>
                                 <h4>
                                     <br> Back End
                                 </h4>
@@ -186,34 +258,66 @@
     </main>
 
     <footer>
-        <div class="col-lg-12">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-4">
-                    <ul class="footer-nav">
-                        <li>
-                            <a href="#">Skills</a>
-                        </li>
-                        <li>
-                            <a href="#">About</a>
-                        </li>
-                        <li>
-                            <a href="#">Contact</a>
-                        </li>
-                    </ul>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                            <ul class="footer-nav">
+                                <li>
+                                    <a href="#">About us</a>
+                                </li>
+                                <li>
+                                    <a href="#">Blog</a>
+                                </li>
+                                <li>
+                                    <a href="#">News</a>
+                                </li>
+                                <li>
+                                    <a href="#">Contact</a>
+                                </li>
+                                <li>
+                                    <a href="#">Donations</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                            <p>
+                                Copyright &copy; 2018 by Carlos. All right reserved.
+                            </p>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                            <ul class="footer-nav-icons">
+                                <li>
+                                    <a href="https://cr.linkedin.com/in/carlos-bonilla-robles-108a8b107">
+                                        <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://github.com/rada2491?tab=repositories">
+                                        <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.facebook.com/carlos.bonillarobles">
+                                        <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-4">
-                    <p>
-                        Copyright &copy; 2018 by Carlos. All right reserved.
-                    </p>
-                </div>
-                <div class="col-lg-4"></div>
             </div>
         </div>
+
     </footer>
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery.waypoints.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/Animations.js"></script>
+    <script src="js/materialize.min.js"></script>
 </body>
 
 </html>

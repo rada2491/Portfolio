@@ -10,7 +10,8 @@ var pump = require('pump');
 gulp.task('scripts', () => {
   return gulp.src([
     'node_modules/bootstrap/dist/js/bootstrap.min.js',
-    'node_modules/jquery/dist/jquery.min.js'])
+    'node_modules/jquery/dist/jquery.min.js',
+    'node_modules/materialize-css/dist/js/materialize.min.js'])
     .pipe(gulp.dest('dist/js'))
 })
 
@@ -26,6 +27,7 @@ gulp.task('styles', () => {
     .pipe(sass({
       includePaths: [
         path.join(__dirname, 'node_modules/bootstrap-sass/assets/stylesheets'),
+        path.join(__dirname, 'node_modules/materialize-css/sass'),
         path.join(__dirname, 'src/scss'),
         path.join(__dirname, 'node_modules/font-awesome')]
       , outputStyle: 'compressed'
