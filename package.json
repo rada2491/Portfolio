@@ -4,8 +4,7 @@
   "description": "Portfolio",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "http-server ./src -o -s"
+    "start": "gulp build"
   },
   "author": "Carlos",
   "license": "ISC",
@@ -28,6 +27,7 @@
   "homepage": "https://github.com/rada2491/Portfolio#readme",
   "dependencies": {
     "bootstrap": "^3.3.7",
+    "bootstrap-sass": "^3.3.7",
     "font-awesome": "^4.7.0",
     "jquery": "^3.3.1"
   }
