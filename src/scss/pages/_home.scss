@@ -346,6 +346,25 @@ footer p {
     h1 { font-size: 180%; }
     h2 { font-size: 150%; }
     
+    footer {
+        padding: 50px 0;
+    }
+
+
+
+    .footer-nav-container {
+        text-align: center;
+    }
+
+    .footer-nav {
+        display: inline-table;
+        float: none;
+
+        li {
+            display: inline;
+        }
+    }
+
 
 
 }
