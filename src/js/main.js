@@ -14,7 +14,7 @@ $(document).ready(function () {
 
     /* Navigation Scroll*/
 
-    $('a[href*="#"]')
+    /*$('a[href*="#"]')
         // Remove links that don't actually link to anything
         .not('[href="#"]')
         .not('[href="#0"]')
@@ -48,7 +48,15 @@ $(document).ready(function () {
                     });
                 }
             }
-        });
+        });*/
+
+    $('a[href*="#"]').on('click', function (e) {
+        e.preventDefault();
+
+        $('html, body').animate({
+            scrollTop: $($(this).attr('href')).offset().top
+        }, 500, 'linear');
+    });
 
 
     /* Function for nav icon */
